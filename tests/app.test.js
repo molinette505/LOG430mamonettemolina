@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../src/app';
+import app from '../src/app.js';
 
 // Test 1 : La route / retourne le bon message
 test('GET / should return Hello, World!', async () => {

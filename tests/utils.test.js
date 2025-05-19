@@ -1,4 +1,4 @@
-import { add, factorial } from '../src/utils';
+import { add, factorial } from '../src/utils.js';
 
 // Test 1 : Addition simple
 test('add(2, 4) should return 6', () => {
