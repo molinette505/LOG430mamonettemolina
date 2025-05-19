@@ -13,6 +13,6 @@ if (require.main === module) {
   });
 }
 
-module.exports = app; // 👈 nécessaire pour Supertest
+module.exports = app;
 
 

@@ -3,5 +3,7 @@ version: '3.8'
 services:
   app:
     build: .
+    image: applog430
     ports:
       - "3000:3000"
+    container_name: applog430
