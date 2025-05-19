@@ -1,4 +1,4 @@
-const { add, factorial } = require('../src/utils');
+import { add, factorial } from '../src/utils';
 
 // Test 1 : Addition simple
 test('add(2, 3) should return 5', () => {

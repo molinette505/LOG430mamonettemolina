@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
@@ -7,12 +7,12 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
   });
 }
 
-module.exports = app;
+export default app;
 
 

@@ -1,5 +1,5 @@
-const request = require('supertest');
-const app = require('../src/app');
+import request from 'supertest';
+import app from '../src/app';
 
 // Test 1 : La route / retourne le bon message
 test('GET / should return Hello, World!', async () => {
